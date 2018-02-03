@@ -78,3 +78,7 @@ a.navbar-brand {
 div.dropdown-menu {
     background-color: black;
 }
+
+button.navbar-toggler.btn.btn-dark.btn-lg {
+    border: white solid 2px;
+}
