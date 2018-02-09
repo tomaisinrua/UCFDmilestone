@@ -1,3 +1,181 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
+@font-face {
+    font-family: 'junctionregular';
+    src: url('Junction-regular-webfont.eot');
+    src: url('Junction-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         /*url('Junction-regular-webfont.woff2') format('woff2'),*/
+         url('Junction-regular-webfont.woff') format('woff'),
+         url('Junction-regular-webfont.ttf') format('truetype'),
+         url('Junction-regular-webfont.svg#junctionregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'junctionlight';
+    src: url('Junction-light-webfont.eot');
+    src: url('Junction-light-webfont.eot?#iefix') format('embedded-opentype'),
+         /*url('Junction-light-webfont.woff2') format('woff2'),*/
+         url('Junction-light-webfont.woff') format('woff'),
+         url('Junction-light-webfont.ttf') format('truetype'),
+         url('Junction-light-webfont.svg#junctionlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'junctionbold';
+    src: url('Junction-bold-webfont.eot');
+    src: url('Junction-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Junction-bold-webfont.woff2') format('woff2'),
+         url('Junction-bold-webfont.woff') format('woff'),
+         url('Junction-bold-webfont.ttf') format('truetype'),
+         url('Junction-bold-webfont.svg#junctionbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+main {
+    margin-bottom: 0;
+    height: 80vh;
+    background: url("../images/IMG_20171124_120136-EFFECTS.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+}
+
+body {
+    background-color: black;
+    font-family: 'junctionregular';
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'junctionbold'
+}
+
+nav {
+    background-color: rgb(0, 0, 0);
+}
+
+li.nav-item {
+    height: 120px;
+    text-align: center;
+    font-size: 2rem;
+    margin: 5px;
+}
+
+li.nav-item a {
+    width: 100%;
+    color: #ffffff;
+    height: 120px;
+}
+
+li.nav-item a.dropdown-item {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+li.nav-item a i {
+    display:block;
+    color: #ffffff;
+    font-size: 4rem;
+}
+
+a.navbar-brand {
+    font-size: 2rem;
+}
+
+div.dropdown-menu {
+    background-color: black;
+}
+
+
+button.navbar-toggler.btn.btn-dark.btn-lg {
+    border: white solid 2px;
+}
+
+
+
+.inline-block {
+    display: inline-block;
+}
+
+footer {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 0;
+    background-color: #585858;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.9);
+    color: #fafafa;
+    margin: 0;
+}
+
+footer .cv-pdf i {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+footer .cv-pdf i:hover {
+    color: #252326;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links {
+    padding-top: 15px;
+    padding-bottom: 1px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #030303;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #252326;
+}
+
+#footer-details {
+    margin: 5px;
+}
+
+.social-links li {
+    margin-bottom: 10px;
+}
+
+@media(min-width: 992px) {
+    #button {
+        text-align: right;
+    }
+}
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 
