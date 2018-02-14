@@ -15,7 +15,7 @@
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-toggleable-xl navbar-dark fixed-top">
+            <nav class="navbar navbar-toggleable-xl navbar-dark fixed-top" id="p1">
                 <a class="navbar-brand hvr-grow-rotate" href="#"><i class="fas fa-suitcase"></i> t's travels</a>
                 <button class="navbar-toggler btn btn-dark hvr-buzz-out" type="button" data-toggle="collapse" data-target="#nigelTheNav" aria-controls="nigelTheNav" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars text-white"></i><span></span>
                 </button>
@@ -38,9 +38,68 @@
                 </div>
             </nav>
         </header>
-        <main class="index">
-            <div class="container">
-                <h1 class="h1 text-white tlt">welcome to t's travels</h1>
+        <main>
+            <div id="carolCarouselIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                <li data-target="#carolCarouselIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carolCarouselIndicators" data-slide-to="1"></li>
+                <li data-target="#carolCarouselIndicators" data-slide-to="2"></li>
+                <li data-target="#carolCarouselIndicators" data-slide-to="3"></li>
+                <li data-target="#carolCarouselIndicators" data-slide-to="4"></li>
+                <li data-target="#carolCarouselIndicators" data-slide-to="5"></li>
+                <li data-target="#carolCarouselIndicators" data-slide-to="6"></li>
+                <li data-target="#carolCarouselIndicators" data-slide-to="7"></li>
+                <li data-target="#carolCarouselIndicators" data-slide-to="8"></li>
+                <li data-target="#carolCarouselIndicators" data-slide-to="10"></li>
+                <li data-target="#carolCarouselIndicators" data-slide-to="11"></li>
+                <li data-target="#carolCarouselIndicators" data-slide-to="12"></li>
+                <li data-target="#carolCarouselIndicators" data-slide-to="13"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                
+                <div class="carousel-item active" style="background-image: url('assets/images/img6.jpg')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="tlt">First Slide</h3>
+                        <p class="tlt2">This is a description for the first slide.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-item" style="background-image: url('assets/images/img7.png')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="tlt">Second Slide</h3>
+                        <p class="tlt2">This is a description for the second slide.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-item" style="background-image: url('assets/images/img3.jpg')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="tlt">Third Slide</h3>
+                        <p class="tlt2">This is a description for the third slide.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item" style="background-image: url('assets/images/img4.jpg')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="tlt">Second Slide</h3>
+                        <p class="tlt2">This is a description for the second slide.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-item" style="background-image: url('assets/images/img5.jpg')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="tlt">Third Slide</h3>
+                        <p class="tlt2">This is a description for the third slide.</p>
+                    </div>
+                </div>
+                </div>
+                <a class="carousel-control-prev" href="#carolCarouselIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carolCarouselIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+                </a>
             </div>
         </main>
         <footer class="container-fluid text-center">
@@ -71,7 +130,8 @@
         <script src="jquery.textillate.js"></script>
         <script src="assets/js/script.js" type="text/javascript"></script>
         <script>
-            $('.tlt').textillate({ loop: true, minDisplayTime: 10000, in: { effect: 'flipInY', shuffle: true }, out: { effect: 'flipOutX', shuffle: true} });
+            $('.tlt').textillate({ loop: true, minDisplayTime: 3000,in: { effect: 'bounceInDown', shuffle: true }, out: { effect: 'hinge', shuffle: true} });
+            $('.tlt2').textillate({ loop: true, minDisplayTime: 3000,in: { effect: 'flipInY', shuffle: true }, out: { effect: 'flipOutX', shuffle: true} });
         </script>
     </body>
 </html>
