@@ -81,6 +81,7 @@ h1,h2,h3,h4,h5,h6 {
     font-family: 'junctionlight'
 }
 
+/* centering and scaling for h1 on homepage - edited from codepen */
 .h1 {
     position: absolute;
     left: 0;
@@ -197,7 +198,7 @@ footer {
     background-color: rgba(0, 0, 0, 0.623);
 }
 
-
+/* fullscreen carousel - edited from codepen and also viewed on BS3 tutorial online */
 .carousel-item {
     height: 100vh;
     min-height: 300px;
