@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!-- Common Meta tags -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <!-- Styling links - BS4 - FontAwesome - HoverCSS - animate.CSS - my styles -->
+
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css">
@@ -16,7 +15,6 @@
     </head>
     <body>
         <header>
-            <!-- Nigel the Nav - Set to always hide menu and show button - some slight animations added on hover -->
             <nav class="navbar navbar-toggleable-xl navbar-dark fixed-top">
                 <a class="navbar-brand hvr-grow-rotate" href="#"><i class="fas fa-suitcase"></i> t's travels</a>
                 <button class="navbar-toggler btn btn-dark hvr-buzz-out" type="button" data-toggle="collapse" data-target="#nigelTheNav" aria-controls="nigelTheNav" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars text-white"></i><span></span>
@@ -40,13 +38,68 @@
                 </div>
             </nav>
         </header>
-        <!-- Main body of page set to 100vh with Textilate.js TEXT animating the welcome page -->
-        <main class="index">
-            <div class="container">
-                <h1 class="h1 text-white tlt">welcome to t's travels</h1>
+        <main class="index gallery">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 mt-5">
+                        <div class="mt-5 card border-light text-light bg-dark-card">
+                            <img class="card-img-top" src="assets/images/finn.jpg" alt="Card image cap">
+                            <div class="card-body d-sm-none d-md-inline-block">
+                                <h5 class="card-title">Finland</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush d-sm-none d-md-inline-block">
+                                <li class="list-group-item text-light bg-dark-card"><a target="_blank" href="#" class="hvr-wobble-vertical text-light">justo odio</a></li>
+                                <li class="list-group-item text-light bg-dark-card">Dapibus ac facilisis in</li>
+                                <li class="list-group-item text-light bg-dark-card">Vestibulum at eros</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 mt-5">
+                        <div class="mt-5 card border-light text-light bg-dark-card">
+                            <img class="card-img-top" src="assets/images/italy.png" alt="Card image cap">
+                            <div class="card-body d-sm-none d-md-inline-block">
+                                <h5 class="card-title">Italy</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush d-sm-none d-md-inline-block">
+                                <li class="list-group-item text-light bg-dark-card">Cras justo odio</li>
+                                <li class="list-group-item text-light bg-dark-card">Dapibus ac facilisis in</li>
+                                <li class="list-group-item text-light bg-dark-card">Vestibulum at eros</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 mt-5">
+                        <div class="mt-5 card border-light text-light bg-dark-card">
+                            <img class="card-img-top" src="assets/images/spain.png" alt="Card image cap">
+                            <div class="card-body d-sm-none d-md-inline-block">
+                                <h5 class="card-title">Spain</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush d-sm-none d-md-inline-block">
+                                <li class="list-group-item text-light bg-dark-card">Cras justo odio</li>
+                                <li class="list-group-item text-light bg-dark-card">Dapibus ac facilisis in</li>
+                                <li class="list-group-item text-light bg-dark-card">Vestibulum at eros</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 mt-5">
+                        <div class="mt-5 card border-light text-light bg-dark-card">
+                            <img class="card-img-top" src="assets/images/swiss.png" alt="Card image cap">
+                            <div class="card-body d-sm-none d-md-inline-block">
+                                <h5 class="card-title">Switzerland</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush d-sm-none d-md-inline-block">
+                                <li class="list-group-item text-light bg-dark-card">Cras justo odio</li>
+                                <li class="list-group-item text-light bg-dark-card">Dapibus ac facilisis in</li>
+                                <li class="list-group-item text-light bg-dark-card">Vestibulum at eros</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
-        <!-- Footer containing social links + contact button - FA icons used here as well as hover.css -->
         <footer class="container-fluid text-center">
             <div id="footer-details" class="row">
                 <div class="col-md-4 mt-md-1 text-lg-left">
@@ -66,7 +119,6 @@
                 </div>
             </div>
         </footer>
-        <!-- many many scripts for BS4 + textilate.js -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -75,7 +127,6 @@
         <script src="https://yandex.st/highlightjs/7.3/highlight.min.js"></script>
         <script src="jquery.textillate.js"></script>
         <script src="assets/js/script.js" type="text/javascript"></script>
-        <!-- call for textilate.js to animate the h1 at center of page and designating wich effects to play and relevant settings -->
         <script>
             $('.tlt').textillate({ loop: true, minDisplayTime: 10000, in: { effect: 'flipInY', shuffle: true }, out: { effect: 'flipOutX', shuffle: true} });
         </script>
