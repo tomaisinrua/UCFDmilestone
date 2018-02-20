@@ -1,3 +1,4 @@
+/* Fonts - Roboto for backup and junction for main site font */
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 
@@ -40,6 +41,7 @@
 
 }
 
+/* General Styling*/
 ::-webkit-scrollbar {
     display: none;
 }
@@ -80,6 +82,7 @@ h1,h2,h3,h4,h5,h6 {
     text-shadow: 0.15vmin 0.15vmin rgba(0, 0, 0, 0.5);
 }
 
+/* Nav Styling*/
 nav {
     background-color: rgba(0, 0, 0, 0.623);
 }
@@ -125,6 +128,7 @@ button.navbar-toggler.btn.btn-dark {
     display: inline-block;
 }
 
+/* Footer Styling */
 footer {
     padding-top: 2px;
     padding-bottom: 2px;
@@ -172,6 +176,12 @@ footer {
     margin-bottom: 10px;
 }
 
+/* Gallery Styling */
+.bg-dark-card {
+    background-color: rgba(0, 0, 0, 0.623);
+}
+
+
 .carousel-item {
     height: 100vh;
     min-height: 300px;
@@ -183,7 +193,7 @@ footer {
 }
 
 
-
+/* Media Queries */
 
 @media(min-width: 768px) {
     #button {
@@ -202,3 +212,34 @@ footer {
         margin-bottom: 0;
     }
 }
+
+@media(max-width: 575px) {
+    main.index.gallery{
+        height: 450vh;
+        min-height: 300px;
+        background: url("../images/IMG_20171124_120136-EFFECTS.jpg") no-repeat top center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+    }
+}
+
+/* an attempt to correct the view on small screens
+@media(max-width: 576px) {
+    .card-body,
+    .list-group-flush {
+        display: none;
+    }
+}
+
+@media(max-width: 575px) {
+    .card {
+        max-width: 150px;
+        margin-bottom: -50px;
+        margin-top: -50px;
+        padding: 0;
+        display: inline-flex;
+    }
+} */
