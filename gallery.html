@@ -14,39 +14,40 @@
         <title>tommys travels</title>
     </head>
     <body>
+        <!-- Header containing Navbar nigel - set to hide menu at all breakpoints and only display burger button -->
         <header>
-            <nav class="navbar navbar-toggleable-xl navbar-dark fixed-top">
-                <a class="navbar-brand hvr-grow-rotate" href="index.html"><i class="fas fa-suitcase"></i> t's travels</a>
-                <button class="navbar-toggler btn btn-dark hvr-buzz-out" type="button" data-toggle="collapse" data-target="#nigelTheNav" aria-controls="nigelTheNav" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars text-white"></i><span></span>
-                </button>
-                
-                <div class="collapse navbar-collapse" id="nigelTheNav">
-                    <ul class="navbar-nav flex-md-row justify-content-around ml-auto">
-                    <li class="light nav-item">
-                        <a class="nav-link hvr-float-shadow" href="index.html"><i class="fa fa-home fa-2x"></i><span>Home</span></a>
-                    </li>
-                    <li class="light nav-item">
-                        <a class="nav-link hvr-float-shadow active" href="gallery.html"><i class="fa fa-camera-retro fa-2x"></i><span>Gallery</span><span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="light nav-item">
-                        <a class="nav-link hvr-float-shadow" href="#"><i class="far fa-user fa-2x"></i><span>About Me</span></a>
-                    </li>
-                    <li class="light nav-item">
-                        <a class="nav-link hvr-float-shadow" href="#"><i class="fa fa-cog fa-2x fa-spin"></i><span>Site Info</span></a>
-                    </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+                <nav class="navbar navbar-toggleable-xl navbar-dark fixed-top" id="p1">
+                    <a class="navbar-brand hvr-grow-rotate" href="index.html"><i class="fas fa-suitcase"></i> t's travels</a>
+                    <button class="navbar-toggler btn btn-dark hvr-buzz-out" type="button" data-toggle="collapse" data-target="#nigelTheNav" aria-controls="nigelTheNav" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars text-white"></i><span></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse" id="nigelTheNav">
+                        <ul class="navbar-nav flex-md-row justify-content-around ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link hvr-float-shadow" href="index.html"><i class="fa fa-home fa-2x"></i><span>Home</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-float-shadow active" href="gallery.html"><i class="fa fa-camera-retro fa-2x"></i><span>Gallery</span><span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-float-shadow" href="me.html"><i class="far fa-user fa-2x"></i><span>About Me</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-float-shadow" href="info.html"><i class="fa fa-cog fa-2x fa-spin"></i><span>Site Info</span></a>
+                        </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
         <main class="index gallery">
             <div class="container-fluid">
             <h1 class="gallery light text-center text-light">Gallery</h1>
                 <div class="row py-5">
                     <div class="col-6 col-sm-6 col-md-3 mb-5">
                         <div class="card border-light text-light bg-dark-card text-center">
-                            <img class="card-img-top" src="assets/images/finn.jpg" alt="Card image cap">
+                            <a href="finland.html"><img class="card-img-top" src="assets/images/finn.jpg" alt="Card image cap"></a>
                             <div class="card-body d-none d-md-inline-block">
-                                <h4 class="card-title light">Finland</h4>
+                                <a href="finland.html" class="text-light"><h4 class="card-title light text-light">Finland</h4></a>
                                 <p class="card-text"></p>
                             </div>
                             <ul class="list-group list-group-flush d-none d-md-inline-block">
@@ -64,7 +65,7 @@
                                 <p class="card-text"></p>
                             </div>
                             <ul class="list-group list-group-flush d-none d-md-inline-block">
-                                <li class="light list-group-item text-light bg-dark-card"><a href="bologna1.html" class="hvr-forward text-light"><h5 class="light"><i class="far fa-images fa-lg"></i> Bologna <span class="badge badge-pill badge-light">21</span></h5></a></li>
+                                <li class="light list-group-item text-light bg-dark-card"><a href="bologna.html" class="hvr-forward text-light"><h5 class="light"><i class="far fa-images fa-lg"></i> Bologna <span class="badge badge-pill badge-light">21</span></h5></a></li>
                                 <li class="light list-group-item text-light bg-dark-card"><a href="bologna2.html" class="hvr-forward text-light"><h5 class="light"><i class="far fa-images fa-lg"></i> Bologna <span class="badge badge-pill badge-light">52</span></h5></a></li>
                                 <li class="light list-group-item text-light bg-dark-card"><a href="bologna3.html" class="hvr-forward text-light"><h5 class="light"><i class="far fa-images fa-lg"></i> Bologna <span class="badge badge-pill badge-light">6</span></h5></a></li>
                             </ul>
