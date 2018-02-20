@@ -15,35 +15,40 @@
         <title>tommys travels</title>
     </head>
     <body>
+        <!-- Header containing Navbar nigel - set to hide menu at all breakpoints and only display burger button -->
         <header>
-            <!-- Nigel the Nav - Set to always hide menu and show button - some slight animations added on hover -->
             <nav class="navbar navbar-toggleable-xl navbar-dark fixed-top">
-                <a class="navbar-brand hvr-grow-rotate" href="#"><i class="fas fa-suitcase"></i> t's travels</a>
+                <a class="navbar-brand hvr-grow-rotate" href="index.html"><i class="fas fa-suitcase"></i> t's travels</a>
                 <button class="navbar-toggler btn btn-dark hvr-buzz-out" type="button" data-toggle="collapse" data-target="#nigelTheNav" aria-controls="nigelTheNav" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars text-white"></i><span></span>
                 </button>
                 
                 <div class="collapse navbar-collapse" id="nigelTheNav">
                     <ul class="navbar-nav flex-md-row justify-content-around ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link hvr-float-shadow active" href="#"><i class="fa fa-home fa-2x"></i><span>Home</span><span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link hvr-float-shadow" href="#"><i class="fa fa-camera-retro fa-2x"></i><span>Gallery</span></a>
+                        <a class="nav-link hvr-float-shadow" href="index.html"><i class="fa fa-home fa-2x"></i><span>Home</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link hvr-float-shadow" href="#"><i class="far fa-user fa-2x"></i><span>About Me</span></a>
+                        <a class="nav-link hvr-float-shadow active" href="gallery.html"><i class="fa fa-camera-retro fa-2x"></i><span>Gallery</span><span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link hvr-float-shadow" href="#"><i class="fa fa-cog fa-2x fa-spin"></i><span>Site Info</span></a>
+                        <a class="nav-link hvr-float-shadow" href="me.html"><i class="far fa-user fa-2x"></i><span>About Me</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hvr-float-shadow" href="info.html"><i class="fa fa-cog fa-2x fa-spin"></i><span>Site Info</span></a>
                     </li>
                     </ul>
                 </div>
             </nav>
         </header>
         <!-- Main body of page set to 100vh with Textilate.js TEXT animating the welcome page -->
-        <main class="index">
+        <main class="index" id="index">
             <div class="container">
                 <h1 class="h1 text-white tlt">welcome to t's travels</h1>
+                <center class="fixed-bottom mb-1">
+                    <a href="#footer-details" class="text-light"><i class="fas fa-arrow-circle-down"></i></a>
+                    &nbsp; &nbsp;
+                    <a href="#index" class="text-light"><i class="fas fa-arrow-circle-up"></i></a>
+                </center>
             </div>
         </main>
         <!-- Footer containing social links + contact button - FA icons used here as well as hover.css -->
@@ -60,6 +65,7 @@
                 </div>
                 <div class="col-md-4 mt-md-4">
                     <h5 class="light">Tomáisín Breathnach</h5>
+                    
                 </div>
                 <div class="col-md-4 mt-md-2" id="button">
                     <button class="btn btn-dark btn-outline-light mt-2"><i class="far fa-comments"></i> Contact</button>
