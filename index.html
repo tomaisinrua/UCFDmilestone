@@ -23,12 +23,12 @@
                 </button>
                 
                 <div class="collapse navbar-collapse" id="nigelTheNav">
-                    <ul class="navbar-nav flex-md-row justify-content-around ml-auto">
+                    <ul class="navbar-nav flex-row justify-content-around ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link hvr-float-shadow" href="index.html"><i class="fa fa-home fa-2x"></i><span>Home</span></a>
+                        <a class="nav-link hvr-float-shadow active" href="index.html"><i class="fa fa-home fa-2x"></i><span>Home</span><span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link hvr-float-shadow active" href="gallery.html"><i class="fa fa-camera-retro fa-2x"></i><span>Gallery</span><span class="sr-only">(current)</span></a>
+                        <a class="nav-link hvr-float-shadow" href="gallery.html"><i class="fa fa-camera-retro fa-2x"></i><span>Gallery</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link hvr-float-shadow" href="me.html"><i class="far fa-user fa-2x"></i><span>About Me</span></a>
@@ -44,7 +44,7 @@
         <main class="index" id="index">
             <div class="container">
                 <h1 class="h1 text-white tlt">welcome to t's travels</h1>
-                <center class="fixed-bottom pb-1">
+                <center class="fixed-bottom pb-1 d-none d-md-inline-block">
                     <a href="#footer-details" class="text-light hvr-hang"><i class="fas fa-arrow-circle-down"></i></a>
                     &nbsp; &nbsp;
                     <a href="#top" class="text-light hvr-bob"><i class="fas fa-arrow-circle-up"></i></a>
@@ -86,7 +86,6 @@
             $('.tlt').textillate({ loop: true, minDisplayTime: 10000, in: { effect: 'flipInY', shuffle: true }, out: { effect: 'flipOutX', shuffle: true} });
         </script>
         <!-- Start of HubSpot Embed Code -->
-        <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4331813.js"></script>
-        <!-- End of HubSpot Embed Code -->
+        
     </body>
 </html>

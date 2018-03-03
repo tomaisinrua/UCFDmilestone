@@ -115,11 +115,9 @@ nav#p1:hover {
 
 li.nav-item {
     text-align: center;
-    margin: 5px;
 }
 
 li.nav-item a {
-    width: 100%;
     color: #ffffff;
 }
 
