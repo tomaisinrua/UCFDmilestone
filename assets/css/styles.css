@@ -59,7 +59,7 @@ main.index {
 
 main.index.gallery {
     height: 100%;
-    min-height: 300px;
+    min-height: 100vh;
     background: url("../images/IMG_20171124_120136-EFFECTS.jpg") no-repeat top center;
     -webkit-background-size: cover;
     -moz-background-size: cover;

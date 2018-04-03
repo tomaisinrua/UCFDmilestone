@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Common Meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- Styling links - BS4 - FontAwesome - HoverCSS - animate.CSS - my styles -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
+        <link href="assets/animate.css" rel="stylesheet">
+
+        <title>tommys travels</title>
+    </head>
+    <body>
+        <!-- Header containing Navbar nigel - set to hide menu at all breakpoints and only display burger button -->
+        <header>
+            <nav class="navbar navbar-toggleable-xl navbar-dark fixed-top">
+                <a class="navbar-brand hvr-grow-rotate" href="index.html"><i class="fas fa-suitcase"></i> t's travels</a>
+                <button class="navbar-toggler btn btn-dark hvr-buzz-out" type="button" data-toggle="collapse" data-target="#nigelTheNav" aria-controls="nigelTheNav" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars text-white"></i><span></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="nigelTheNav">
+                    <ul class="navbar-nav flex-row justify-content-around ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link hvr-float-shadow active" href="index.html"><i class="fa fa-home fa-2x"></i><span>Home</span><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hvr-float-shadow" href="gallery.html"><i class="fa fa-camera-retro fa-2x"></i><span>Gallery</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hvr-float-shadow" href="me.html"><i class="far fa-user fa-2x"></i><span>About Me</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hvr-float-shadow" href="info.html"><i class="fa fa-cog fa-2x fa-spin"></i><span>Site Info</span></a>
+                    </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- Main body of page set to 100vh with Textilate.js TEXT animating the welcome page -->
+        <main class="index" id="index">
+            <div class="container">
+                <h1 class="h1 text-white tlt">welcome to t's travels</h1>
+                <center class="fixed-bottom pb-1 d-none d-md-inline-block">
+                    <a href="#footer-details" class="text-light hvr-hang"><i class="fas fa-arrow-circle-down"></i></a>
+                    &nbsp; &nbsp;
+                    <a href="#top" class="text-light hvr-bob"><i class="fas fa-arrow-circle-up"></i></a>
+                </center>
+            </div>
+        </main>
+        <!-- Footer containing social links + contact button - FA icons used here as well as hover.css -->
+        <footer class="container-fluid text-center">
+            <div id="footer-details" class="row">
+                <div class="col-md-4 mt-md-1 text-lg-left">
+                    <ul class="list-inline social-links d-inline-flex">
+                        <li><a target="_blank" href="#" class="hvr-wobble-vertical mr-2"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a target="_blank" href="#" class="hvr-wobble-vertical mr-2"><i class="fab fa-twitter"></i></a></li>
+                        <li><a target="_blank" href="#" class="hvr-wobble-vertical mr-2"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a target="_blank" href="#" class="hvr-wobble-vertical mr-2"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a target="_blank" href="#" class="hvr-wobble-vertical mr-2"><i class="fab fa-github-alt"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mt-md-4">
+                    <h5 class="light">Tomáisín Breathnach</h5>
+                    
+                </div>
+                <div class="col-md-4 mt-md-2" id="button">
+                    <button class="btn btn-dark btn-outline-light mt-2"><i class="far fa-comments"></i> Contact</button>
+                </div>
+            </div>
+        </footer>
+        <!-- many many scripts for BS4 + textilate.js -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="assets/jquery.fittext.js"></script>
+        <script src="assets/jquery.lettering.js"></script>
+        <script src="https://yandex.st/highlightjs/7.3/highlight.min.js"></script>
+        <script src="jquery.textillate.js"></script>
+        <script src="assets/js/script.js" type="text/javascript"></script>
+        <!-- call for textilate.js to animate the h1 at center of page and designating wich effects to play and relevant settings -->
+        <script>
+            $('.tlt').textillate({ loop: true, minDisplayTime: 10000, in: { effect: 'flipInY', shuffle: true }, out: { effect: 'flipOutX', shuffle: true} });
+        </script>
+        <!-- Start of HubSpot Embed Code -->
+        
+    </body>
+</html>
