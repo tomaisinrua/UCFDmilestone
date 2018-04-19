@@ -41,6 +41,12 @@
 
 }
 
+/* Modal Styling */
+
+.modal-content {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
 /* General Styling*/
 ::-webkit-scrollbar {
     display: none;
