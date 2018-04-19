@@ -91,12 +91,13 @@ h1,h2,h3,h4,h5,h6 {
     text-align: center;
     font-size: 10vmin;
     padding: 2vmin 0;
-    text-shadow: 0.15vmin 0.15vmin rgba(0, 0, 0, 0.5);
+    text-shadow: 0.55vmin 0.55vmin rgba(0, 0, 0, 0.5);
 }
 
 h1.gallery {
     padding-top: 70px;
-    font-size: 4rem
+    font-size: 10vmin;
+    text-shadow: 0.55vmin 0.55vmin rgba(0, 0, 0, 0.5);
 }
 
 
@@ -111,7 +112,10 @@ nav#p1 {
 
 nav#p1:hover {
     background-color: rgba(0, 0, 0, 0.623);
-    transition: all 1.0s ease-in-out;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 
@@ -141,6 +145,15 @@ button.navbar-toggler.btn.btn-dark {
 .inline-block {
     display: inline-block;
 }
+
+/* Card Styling */
+.card-img-top {
+    border: solid white 0.0625rem;
+}
+
+
+
+
 
 /* Footer Styling */
 footer {
