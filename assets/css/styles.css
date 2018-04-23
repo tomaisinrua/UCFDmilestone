@@ -110,6 +110,11 @@ h1.gallery {
 /* Nav Styling*/
 nav {
     background-color: rgba(0, 0, 0, 0.623);
+    transition-delay: 1s;
+    transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -webkit-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
 }
 
 nav#p1 {
@@ -118,11 +123,12 @@ nav#p1 {
 
 nav#p1:hover {
     background-color: rgba(0, 0, 0, 0.623);
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -webkit-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
 }
+
 
 
 
@@ -186,10 +192,10 @@ footer {
     text-align: center;
     color: #fafafa;
     background: #030303;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -webkit-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
 }
 
 .social-links li a i:hover {
